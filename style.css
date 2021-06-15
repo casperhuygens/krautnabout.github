@@ -1,0 +1,99 @@
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Raleway & Open Sans
+    ----------------------------------------
+    Colors:
+
+        White Smoke:         #f4f4f4
+        White:               #fff
+        Black:               #000   
+
+
+
+    @font-face {
+  font-family: sugo pro display;
+  src: url(sansation_light.woff);
+}
+
+
+============================================ */
+
+
+html,
+body {
+    height: 100%;
+    font-family: le-havre,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+ ----------------------------------------
+     
+
+
+----------------------------------------
+
+
+/* =========================================
+global
+============================================ */
+
+{
+    box-sizing: border-box;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-dark{
+  background-color: #9e3222 !important;
+}
+
+.carousel-photo1{
+  background: url("img/worst.jpg") no-repeat center center;
+  background-size: cover;
+}
+.carousel-photo2{
+  background: url("img/beer.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.carousel-photo3{
+  background: url("img/Duit.jpg") no-repeat center center;
+  background-size: cover;
+}
+.row{
+  margin-top: 6em;
+}
+
+.lead{
+  margin-top: 1em;
+  line-height: 1.4em;
+}
+
+.foodtruckimg {
+  width: 100%;
+  height: auto;
+}
+
+
+.bioimg{
+  width: 67%;
+  height: auto;
+  padding-left: 5em;
+
+}
+
+footer{
+  padding-bottom: 2em;
+  
+}
+
+a{
+  text-decoration: none;
+  color: #9e3222;
+}
